@@ -1,4 +1,7 @@
 import React from 'react';
+import Navigation from './Navigation';
+import Slider from './Slider';
+
 
 export default class Main extends React.Component {
 
@@ -6,8 +9,10 @@ export default class Main extends React.Component {
 
     return (
       <div>
-      <h1>Hello</h1>
-      </div>
+      <Navigation/>
+      <Slider />
+     </div>
+
     );
   }
 }
