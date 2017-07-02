@@ -9,7 +9,6 @@ export default class Main extends React.Component {
 
     return (
       <div>
-      <Navigation/>
       <Slider />
      </div>
 
