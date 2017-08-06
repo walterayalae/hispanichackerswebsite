@@ -1,14 +1,19 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
 import HomePage from './HomePage';
-
+import Navigation from './Navigation';
+import Footer from './Footer';
+import Blog from './Blog';
 
 
 export default class Main extends React.Component {
 
   render() {
     const defaultTheme = {
+      fontFamily: 'Roboto, sans-serif',
       palette: {
         primary1Color: '#00CED1',
         primary2Color: '#e67e22',
@@ -22,11 +27,15 @@ export default class Main extends React.Component {
     const muiTheme = getMuiTheme(defaultTheme);
 
     return (
-      <div>
+    <Router>
       <MuiThemeProvider muiTheme={muiTheme}>
-        <HomePage />
+        <div>
+          <Navigation />
+          <Routes />
+          <Footer />
+        </div>
       </MuiThemeProvider>
-     </div>
+     </Router>
 
     );
   }
