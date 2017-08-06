@@ -43,7 +43,7 @@ export default class Slider extends React.Component {
       paddingBottom: '300px',
     }
     const footerimg = {
-      marginRight:'120px',
+      marginRight:'80px',
       marginTop: '20px'
 
     }
@@ -68,10 +68,14 @@ export default class Slider extends React.Component {
       textAlign: 'center'
     }
 
+    const justifytext = {
+      textAlign:'justify'
+    }
+
     return (
       <div>
       <Breadcrumb style={navstyle}>
-    <Breadcrumb.Item href="#">
+    <Breadcrumb.Item href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/">
       Join Us!
     </Breadcrumb.Item>
     <Breadcrumb.Item href="http://getbootstrap.com/components/#breadcrumbs">

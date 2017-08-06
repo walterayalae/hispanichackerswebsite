@@ -1,12 +1,17 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom'
+var FontAwesome = require('react-fontawesome');
 import Main from './components/Main';
-import Blog from './components/Blog';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+// Needed for onTouchTap
+// http://stackoverflow.com/a/34015469/988941
+injectTapEventPlugin();
+
 
 
 ReactDOM.render((
-  <BrowserRouter>
+
     <Main />
-  </BrowserRouter>
+
 ), document.getElementById('app'))
