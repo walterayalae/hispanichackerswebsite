@@ -3,10 +3,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './Routes';
-import HomePage from './HomePage';
 import Navigation from './Navigation';
 import Footer from './Footer';
-import Blog from './Blog';
 
 
 export default class Main extends React.Component {
@@ -23,19 +21,19 @@ export default class Main extends React.Component {
         accent3Color: '#F58C8C',
       },
     };
-// Function required by material-UI to apply theme to app
+    // Function required by material-UI to apply theme to app
     const muiTheme = getMuiTheme(defaultTheme);
 
     return (
-    <Router>
-      <MuiThemeProvider muiTheme={muiTheme}>
-        <div>
-          <Navigation />
-          <Routes />
-          <Footer />
-        </div>
-      </MuiThemeProvider>
-     </Router>
+      <Router>
+        <MuiThemeProvider muiTheme={muiTheme}>
+          <div>
+            <Navigation />
+            <Routes />
+            <Footer />
+          </div>
+        </MuiThemeProvider>
+      </Router>
 
     );
   }
