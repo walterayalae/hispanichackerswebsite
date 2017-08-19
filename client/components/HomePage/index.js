@@ -2,6 +2,7 @@ import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import styles from './style';
 
+
 const HomePage = () => (
 
   <div style={styles.mainDiv}>

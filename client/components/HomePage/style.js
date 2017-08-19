@@ -1,5 +1,5 @@
 const styles = {
-  mainDiv:{
+  mainDiv: {
     fontFamily: 'Roboto, sans-serif',
   },
   div: {
@@ -26,14 +26,14 @@ const styles = {
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    color:'white',
+    color: 'white',
     height: '600px',
 
   },
   afterHomeDivOverlay: {
     backgroundSize: 'cover',
     backgroundImage: 'linear-gradient(to bottom right,#002f4b,#dc4225)',
-    opacity: .6,
+    opacity: 0.6,
     textAlign: 'center',
     fontSize: '22px',
     fontWeight: 'bold',
