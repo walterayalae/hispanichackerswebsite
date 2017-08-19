@@ -7,7 +7,7 @@ import Blog from './Blog';
 const Routes = () => (
   <div>
     <Route exact path="/" component={HomePage} />
-    <Route path="/Blog" component={Blog} />
+    <Route exact path="/Blog" component={Blog} />
   </div>
 );
 
