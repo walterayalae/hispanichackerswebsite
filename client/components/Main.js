@@ -2,6 +2,7 @@ import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { BrowserRouter as Router } from 'react-router-dom';
+import BrowserHistory from 'react-router';
 import Routes from './Routes';
 import Navigation from './Navigation';
 import Footer from './Footer';
@@ -25,7 +26,7 @@ export default class Main extends React.Component {
     const muiTheme = getMuiTheme(defaultTheme);
 
     return (
-      <Router>
+      <Router history={BrowserHistory}>
         <MuiThemeProvider muiTheme={muiTheme}>
           <div>
             <Navigation />
