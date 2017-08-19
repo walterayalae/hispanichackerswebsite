@@ -1,22 +1,12 @@
 import React from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
+import style from './style';
 
 export default class Blog extends React.Component {
 
   render() {
-    const style= {
-      midDiv: {
-        height: '500px',
 
-      },
-      midSecDiv: {
-        display: 'inline-block',
-        width: '25%',
-        textAlign: 'center',
-        padding: '60px',
-      },
-    };
 
     return (
   <div><br />
@@ -27,7 +17,7 @@ export default class Blog extends React.Component {
       <img src="https://icdn2.digitaltrends.com/image/eniac-women.jpg" alt="" />
     </CardMedia>
     <CardText>
-      August is Women's month at Capital Factory. To celebrate,
+      August is Women"s month at Capital Factory. To celebrate,
       we will be hosting a fireside chat with women of color who
       are doing great things in tech and in Austin.
     </CardText>
@@ -167,7 +157,7 @@ export default class Blog extends React.Component {
   <CardText>
   No SXSW badge? No Problem!
   Looking to hang out with a smart and connected group of people during SXSW?
-  We've got you covered!
+  We"ve got you covered!
   </CardText>
   <CardActions>
     <FlatButton
@@ -180,7 +170,6 @@ export default class Blog extends React.Component {
 
   </div>
   </div>
-
 
     );
   }

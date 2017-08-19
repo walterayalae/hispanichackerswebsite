@@ -1,4 +1,4 @@
-const style = {
+const styles = {
   mainDiv:{
     fontFamily: 'Roboto, sans-serif',
   },
@@ -56,4 +56,4 @@ const style = {
   },
 };
 
-export default style;
+export default styles;
