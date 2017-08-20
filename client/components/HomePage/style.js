@@ -42,12 +42,14 @@ const styles = {
   },
   midDiv: {
     height: '500px',
+    display: 'table',
+    width: '100%',
   },
   midSecDiv: {
     display: 'inline-block',
-    width: '25%',
+    width: '20%',
     textAlign: 'center',
-    padding: '60px',
+    padding: '90px',
   },
   footer: {
     backgroundColor: '#80ced6',
