@@ -4,9 +4,9 @@ const style = {
   },
   midSecDiv: {
     display: 'inline-block',
-    width: '25%',
+    width: '20%',
     textAlign: 'center',
-    padding: '60px',
+    padding: '85px',
     height: 415,
   },
   card: {
