@@ -56,6 +56,9 @@ const styles = {
     height: '400px',
     textAlign: 'center',
   },
+  link: {
+    textDecoration: 'none',
+  },
 };
 
 export default styles;

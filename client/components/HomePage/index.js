@@ -1,5 +1,6 @@
 import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
+import { Link } from 'react-router-dom';
 import styles from './style';
 
 
@@ -21,6 +22,15 @@ const HomePage = () => (
           style={styles.button}
           href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/"
         />
+        <Link to="/Blog" style={styles.link}>
+          <RaisedButton
+            label="Upcoming Events"
+            labelPosition="before"
+            primary
+            style={styles.button}
+            href=""
+          />
+        </Link>
       </div>
     </div>
     <div style={styles.afterHomeDiv}>
