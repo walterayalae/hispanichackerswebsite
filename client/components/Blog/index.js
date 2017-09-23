@@ -8,24 +8,25 @@ const Blog = () => (
   <div><br />
     <Card style={{ width: '750px', height: '650px', textAlign: 'center', marginLeft: '420px' }}>
       <CardMedia
-        overlay={<CardTitle title="Latinos in Tech Austin Celebration" subtitle="Thursday September 21, 2017" />}
+        overlay={<CardTitle title="Coming Soon!" subtitle="Wednesday October 11, 2017" />}
       >
-        <img style={{ height: 500 }} src="https://www.ebsco.com/files/blog/img/uploads/National_Hispanic_Heritage_Month_.png" alt="" />
+        <img style={{ height: 500 }} src="https://secure.meetupstatic.com/photos/event/b/7/0/6/highres_458746854.jpeg" alt="" />
       </CardMedia>
       <CardText>
-         In honor of Hispanic Heritage Month, more than 10 tech companies in
-         Austin have come together to unite the Latinos in Tech community.
+         COMING SOON!
       </CardText>
       <CardActions>
         <FlatButton
           label="RSVP"
           href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/242928848/"
           secondary
+          disabled
         />
         <FlatButton
           label="More Info"
           primary
           href="https://latinosintechseptember.splashthat.com/"
+          disabled
         />
       </CardActions>
     </Card>

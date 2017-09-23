@@ -8,7 +8,16 @@ import style from './style';
 
 const blogData = [
   {
-    id: 1,
+    id: 9,
+    title: 'Latinos In Tech Austin Celebration',
+    date: 'September 21, 2017',
+    image: 'https://www.ebsco.com/files/blog/img/uploads/National_Hispanic_Heritage_Month_.png',
+    texto: 'In honor of Hispanic Heritage Month, more than 10 tech companies in Austin have come together to unite the Latinos in Tech community.',
+    moreInfo: 'More Info',
+    moreInfoLink: 'https://latinosintechseptember.splashthat.com/',
+  },
+  {
+    id: 8,
     title: 'Austin Diversity Hackathon: Pitch Ideas, Form Teams',
     date: 'September 13, 2017',
     image: 'https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20914558_2005168883036133_7509652378930836727_n.png?oh=82605d72d3bb434e545d808adc73d8b1&oe=5A54E09D',
@@ -17,7 +26,7 @@ const blogData = [
     moreInfoLink: 'https://www.eventbrite.com/e/3rd-austin-diversity-hackathon-sponsored-by-google-fiber-bazaarvoice-at-capital-factory-tickets-36978567892?aff=erelexpmlt',
   },
   {
-    id: 2,
+    id: 7,
     title: 'Fireside Chat: Women Of Color In Tech',
     date: 'August 9th 2017',
     image: 'https://pbs.twimg.com/media/DG6UbjeVYAAZ_Y7.jpg:large',
@@ -28,7 +37,7 @@ const blogData = [
     moreInfoLink: 'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/242011678/',
   },
   {
-    id: 3,
+    id: 6,
     title: 'Coding Interview Practice',
     date: 'July 12th 2017',
     image: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAm0AAAAJDIwNDJkNGY2LTUyYzQtNGNhZS1hYTQxLWNjN2E2YThlMGI3Nw.jpg',
@@ -37,7 +46,7 @@ const blogData = [
     moreInfoLink: 'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/241122037/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Technology Choices for Startups',
     date: 'June 14th 2017',
     image: 'http://blndedmedia.com/wp-content/uploads/2017/05/VM-450x300.jpeg',
@@ -46,7 +55,7 @@ const blogData = [
     moreInfoLink: 'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/240411432/',
   },
   {
-    id: 5,
+    id: 4,
     title: 'Paul O"Brien- How to Pitch to Investors + YOU GET TO PITCH!!',
     date: 'May 10th 2017',
     image: 'http://blndedmedia.com/wp-content/uploads/2017/05/Pchat-450x300.jpeg',
@@ -55,7 +64,7 @@ const blogData = [
     moreInfoLink: 'https://medium.com/@blnded/fundamentals-to-use-when-pitching-investors-18f60169aebc',
   },
   {
-    id: 6,
+    id: 3,
     title: 'Coding Interview Practice (sponsored by HomeAway!)',
     date: 'April 12th 2017',
     image: 'https://cdn-images-1.medium.com/max/2000/1*nVQtsq2UX-fFEtBmPJWoaA.jpeg',
@@ -64,7 +73,7 @@ const blogData = [
     moreInfoLink: 'https://medium.com/@blnded/preparing-for-the-coding-interview-48f540b92878',
   },
   {
-    id: 7,
+    id: 2,
     title: 'SXSW Startup Crawl',
     date: 'March 13th 2017',
     image: 'http://techzette.com/wp-content/uploads/2013/10/edited-3174.jpg',
@@ -73,7 +82,7 @@ const blogData = [
     moreInfoLink: 'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/238071261/',
   },
   {
-    id: 8,
+    id: 1,
     title: 'SXSW Fogata: Entrepreneur Mixer with Casa Mexico',
     date: 'March 11th 2017',
     image: 'http://www.elinkstoday.com/wp-content/uploads/2016/03/12246911_932287363491960_6685810832235407268_n.jpg',
