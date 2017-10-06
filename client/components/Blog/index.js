@@ -8,25 +8,25 @@ const Blog = () => (
   <div><br />
     <Card style={{ width: '750px', height: '650px', textAlign: 'center', marginLeft: '420px' }}>
       <CardMedia
-        overlay={<CardTitle title="Coming Soon!" subtitle="Wednesday October 11, 2017" />}
+        overlay={<CardTitle title="Pushing Back: Austin's Diverse Startup Community Showcase" subtitle="Wednesday October 11, 2017" />}
       >
-        <img style={{ height: 500 }} src="https://secure.meetupstatic.com/photos/event/b/7/0/6/highres_458746854.jpeg" alt="" />
+        <img style={{ height: 500 }} src="http://austinstartupweek.com/images/getstarted.png" alt="" />
       </CardMedia>
       <CardText>
-         COMING SOON!
+         Diversity and Startups are not always synonymous,
+         join us in seeing how Austin is pushing back! We are
+         celebrating Austin's unique and richly diverse startup community.
       </CardText>
       <CardActions>
         <FlatButton
           label="RSVP"
-          href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/242928848/"
+          href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/243895362/"
           secondary
-          disabled
         />
         <FlatButton
           label="More Info"
           primary
-          href="https://latinosintechseptember.splashthat.com/"
-          disabled
+          href="http://austinstartupweek.com/"
         />
       </CardActions>
     </Card>
