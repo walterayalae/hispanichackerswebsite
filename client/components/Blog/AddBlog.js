@@ -8,6 +8,15 @@ import style from './style';
 
 const blogData = [
   {
+    id: 10,
+    title: 'Pushing Back: Austin"s Diverse Startup Community Showcase',
+    date: 'Wednesday October 11, 2017',
+    image: 'http://austinstartupweek.com/images/getstarted.png',
+    texto: 'Diversity and Startups are not always synonymous join us in seeing how Austin is pushing back! We are celebrating Austin"s unique and richly diverse startup community.',
+    moreInfo: 'More Info',
+    moreInfoLink: 'http://austinstartupweek.com/',
+  },
+  {
     id: 9,
     title: 'Latinos In Tech Austin Celebration',
     date: 'September 21, 2017',
