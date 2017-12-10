@@ -8,25 +8,25 @@ const Blog = () => (
   <div><br />
     <Card style={{ width: '750px', height: '650px', textAlign: 'center', marginLeft: '420px' }}>
       <CardMedia
-        overlay={<CardTitle title="" subtitle="Wednesday November 8, 2017" />}
+        overlay={<CardTitle title="" subtitle="Wednesday December 13th, 2017" />}
       >
-        <img style={{ height: 500 }} src="https://secure.meetupstatic.com/photos/event/b/7/0/6/highres_458746854.jpeg" alt="" />
+        <img style={{ height: 500 }} src="https://frontdoorsmedia.com/wp-content/uploads/2014/08/Splash-hacks.jpg" alt="" />
       </CardMedia>
       <CardText>
-         COMING SOON!
+         It"s the holiday season and a perfect time to talk about incredible
+         Social Good Initiatives in Austin. ATX Hispanic Hackers is excited to
+         host a dynamic group of Social Good Change Makers in our community
       </CardText>
       <CardActions>
         <FlatButton
           label="RSVP"
-          href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/243895362/"
+          href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/"
           secondary
-          disabled
         />
         <FlatButton
           label="More Info"
           primary
-          href="http://austinstartupweek.com/"
-          disabled
+          href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/events/244535818/"
         />
       </CardActions>
     </Card>
