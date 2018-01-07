@@ -8,25 +8,26 @@ const Blog = () => (
   <div><br />
     <Card style={{ width: '750px', height: '650px', textAlign: 'center', marginLeft: '420px' }}>
       <CardMedia
-        overlay={<CardTitle title="" subtitle="Wednesday December 13th, 2017" />}
+        overlay={<CardTitle title="New Year's Social Mixer" subtitle="Wednesday January 10th, 2018" />}
       >
-        <img style={{ height: 500 }} src="https://frontdoorsmedia.com/wp-content/uploads/2014/08/Splash-hacks.jpg" alt="" />
+        <img style={{ height: 500 }} src="http://wylieblanchard.com/wp-content/uploads/Happy-New-Year-2018_Wylie-Blanchard.jpg" alt="" />
       </CardMedia>
       <CardText>
-         It"s the holiday season and a perfect time to talk about incredible
-         Social Good Initiatives in Austin. ATX Hispanic Hackers is excited to
-         host a dynamic group of Social Good Change Makers in our community
+         Let's get the New Year started on the right note by having
+         fun and hanging out with the Austin Hispanic Hackers!
+         Let's meet and mingle with each other over drinks. It would be great to
+         speak with everyone and hear about what great things you will up to in 2018!
       </CardText>
       <CardActions>
         <FlatButton
           label="RSVP"
-          href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/"
+          href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup"
           secondary
         />
         <FlatButton
           label="More Info"
           primary
-          href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/events/244535818/"
+          href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/events/244535897/"
         />
       </CardActions>
     </Card>

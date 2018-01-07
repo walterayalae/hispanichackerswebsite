@@ -8,6 +8,15 @@ import style from './style';
 
 const blogData = [
   {
+    id: 11,
+    title: 'Hacking for Social Good and Change',
+    date: 'Wednesday December 13th, 2017',
+    image: 'https://frontdoorsmedia.com/wp-content/uploads/2014/08/Splash-hacks.jpg',
+    texto: 'It is the holiday season and a perfect time to talk about incredible Social Good Initiatives in Austin. ATX Hispanic Hackers is excited to host a dynamic group of Social Good Change Makers in our community',
+    moreInfo: 'More Info',
+    moreInfoLink: 'https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/events/244535818/',
+  },
+  {
     id: 10,
     title: 'Pushing Back: Austin"s Diverse Startup Community Showcase',
     date: 'Wednesday October 11, 2017',
