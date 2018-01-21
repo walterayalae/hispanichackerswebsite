@@ -8,6 +8,15 @@ import style from './style';
 
 const blogData = [
   {
+    id: 12,
+    title: 'How to Start a Succesful Startup',
+    date: 'Wednesday January 10th, 2018',
+    image: 'http://wylieblanchard.com/wp-content/uploads/Happy-New-Year-2018_Wylie-Blanchard.jpg',
+    texto: 'Interested in creating a great Tech Startup but don’t necessarily know how?, ',
+    moreInfo: 'More Info',
+    moreInfoLink: 'https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/events/244535897/',
+  },
+  {
     id: 11,
     title: 'Hacking for Social Good and Change',
     date: 'Wednesday December 13th, 2017',
@@ -38,7 +47,7 @@ const blogData = [
     id: 8,
     title: 'Austin Diversity Hackathon: Pitch Ideas, Form Teams',
     date: 'September 13, 2017',
-    image: 'https://scontent-dft4-3.xx.fbcdn.net/v/t1.0-9/20914558_2005168883036133_7509652378930836727_n.png?oh=82605d72d3bb434e545d808adc73d8b1&oe=5A54E09D',
+    image: 'https://cdn-images-1.medium.com/max/2000/1*1l9qS_4zWTwLvS-CpAv4ig.jpeg',
     texto: 'Are you a newbie to programming, and looking for a way to learn from other experienced developers? Are you an experienced developer looking to build something cool while mentoring newcomers to technology / programming?',
     moreInfo: 'More Info',
     moreInfoLink: 'https://www.eventbrite.com/e/3rd-austin-diversity-hackathon-sponsored-by-google-fiber-bazaarvoice-at-capital-factory-tickets-36978567892?aff=erelexpmlt',

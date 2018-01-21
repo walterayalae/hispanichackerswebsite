@@ -8,28 +8,25 @@ const Blog = () => (
   <div><br />
     <Card style={{ width: '750px', height: '650px', textAlign: 'center', marginLeft: '420px' }}>
       <CardMedia
-        overlay={<CardTitle title="How to Start a Succesful Startup" subtitle="Wednesday January 10th, 2018" />}
+        overlay={<CardTitle title="Coming Soon" subtitle="Wednesday February 14th, 2018" />}
       >
-        <img style={{ height: 500 }} src="http://wylieblanchard.com/wp-content/uploads/Happy-New-Year-2018_Wylie-Blanchard.jpg" alt="" />
+        <img style={{ height: 500 }} src="https://secure.meetupstatic.com/photos/event/b/7/0/6/highres_458746854.jpeg" alt="" />
       </CardMedia>
       <CardText>
-         Interested in creating a great Tech Startup but don’t necessarily know how?
-         Have questions on how to get started, building your team, financing, marketing,
-         Intellectual Property and more? Join us in a discussion with an extensive Question
-         and Answer session to help answer these and other questions! Bring your questions,
-         this is a soup to nuts discussion based in extensive hands on practical experience;
-         we expect to go in-depth.
+         Coming Soon!
       </CardText>
       <CardActions>
         <FlatButton
           label="RSVP"
           href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup"
           secondary
+          disabled
         />
         <FlatButton
           label="More Info"
           primary
           href="https://www.meetup.com/es/Austin-Hispanic-Hackers-Meetup/events/244535897/"
+          disabled
         />
       </CardActions>
     </Card>
