@@ -70,7 +70,7 @@ const blogData = [
     image: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAm0AAAAJDIwNDJkNGY2LTUyYzQtNGNhZS1hYTQxLWNjN2E2YThlMGI3Nw.jpg',
     texto: 'The Austin Hispanic Hackers are here to help you overcome the butterfliesin your stomach! The best way to ace these interviews is to be cool,confident, and above all: PRACTICE, PRACTICE, PRACTICE!!!',
     moreInfo: 'More Info',
-    moreInfoLink: 'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/241122037/',
+    moreInfoLink: 'http://blndedmedia.com/hacking-the-coding-interview/',
   },
   {
     id: 5,
@@ -79,7 +79,7 @@ const blogData = [
     image: 'http://blndedmedia.com/wp-content/uploads/2017/05/VM-450x300.jpeg',
     texto: 'When you build a startup, you come face to face with the challenge of building something out of nothing. This craziness is somehow great fun and a huge struggle all at the same time!',
     moreInfo: 'More Info',
-    moreInfoLink: 'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/240411432/',
+    moreInfoLink: 'http://blndedmedia.com/founder-series-veronica-martinez/',
   },
   {
     id: 4,
@@ -88,7 +88,7 @@ const blogData = [
     image: 'http://blndedmedia.com/wp-content/uploads/2017/05/Pchat-450x300.jpeg',
     texto: 'Are you trying to get your tech business going? Are you curious about what it takes to craft a successful pitch? If so, you definitely don’t want to miss the next Hispanic Hackers',
     moreInfo: 'More Info',
-    moreInfoLink: 'https://medium.com/@blnded/fundamentals-to-use-when-pitching-investors-18f60169aebc',
+    moreInfoLink: 'http://blndedmedia.com/fundamentals-pitching-investors/',
   },
   {
     id: 3,
@@ -97,7 +97,7 @@ const blogData = [
     image: 'https://cdn-images-1.medium.com/max/2000/1*nVQtsq2UX-fFEtBmPJWoaA.jpeg',
     texto: 'The whiteboard coding interview is often the typical rite of passage most developers have to overcome to land that nice job.',
     moreInfo: 'More Info',
-    moreInfoLink: 'https://medium.com/@blnded/preparing-for-the-coding-interview-48f540b92878',
+    moreInfoLink: 'http://blndedmedia.com/coding-interview/',
   },
   {
     id: 2,
