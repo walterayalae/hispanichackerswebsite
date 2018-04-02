@@ -8,26 +8,25 @@ const Blog = () => (
   <div><br />
     <Card style={{ width: '750px', height: '650px', textAlign: 'center', marginLeft: '420px' }}>
       <CardMedia
-        overlay={<CardTitle title="SXSW Fogata: Austria, Austin, and Mexico Entrepreneurs Mixer!!" subtitle="Sunday March 11th, 2018" />}
+        overlay={<CardTitle title="Coding Interview Practice" subtitle="Wednesday, April 11, 2018" />}
       >
-        <img style={{ height: 500 }} src="https://pbs.twimg.com/profile_images/708386879188504576/gBTTafCu_400x400.jpg" alt="" />
+        <img style={{ height: 500 }} src="https://cdn-images-1.medium.com/max/1600/1*hQiATpJ1fA8IwK2qbNMVkQ.jpeg" alt="" />
       </CardMedia>
       <CardText>
-        Do not miss the coolest gathering of entrepreneurs during the SXSW season!
-        In collaboration with
-        Casa Mexico and the Office of Science and Technology of Austria,
-        we are excited to announce our annual Fogata gathering!
+        The Austin Hispanic Hackers are here to help you overcome the butterflies in your stomach!
+        The best way to ace these interviews is to be cool, confident, and above all:
+        PRACTICE, PRACTICE, PRACTICE!!!
       </CardText>
       <CardActions>
         <FlatButton
           label="RSVP"
-          href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup"
+          href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/"
           secondary
         />
         <FlatButton
           label="More Info"
           primary
-          href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/248214463/"
+          href="https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/249204249/"
         />
       </CardActions>
     </Card>
